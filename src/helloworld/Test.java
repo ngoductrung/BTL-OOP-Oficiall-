@@ -22,6 +22,7 @@ public class Test {
 
         connection.setRequestMethod("POST");
         Map<String, String> params = new HashMap<>();
+        params.put("token","bmdvZHVjdHJ1bmcK");
         params.put("search_id", "123456789");
         params.put("all", "1");
         /*tạo param*/
